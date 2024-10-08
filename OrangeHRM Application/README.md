@@ -86,8 +86,20 @@ The user should be able to view and interact with the details of the searched us
 **Post-conditions:**
 - The newly added user should be accessible in the user management system and have the specified roles and credentials.
 
-## C) Third Step
-## For Generate Allure Report
+## First Scenario# 4 :API Testing
+##go to Python Terminal:
+**Steps:
+1) first step is install Requests "pip install request"
+2) Install json path "pip install json"
+3) Create Project for API Testing > Create Directory "GET_REQUEST"> inside that directory create python file .py eg: "Fetvhuserdata.py"
+4) import request
+5) import json
+6) Enter theAPI Url: "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/ad
+min/users?limit=50&offset=0&sortField=u.userName&sortOrder=ASC"
+7) Send Get request to API
+
+
+## C) For Generate Allure Report
 1. First i need to install "**pip install allure_pytest**"
 2. For Run the allure command "**pytest OrangeHRM/test_Addnewuser.py --alluredir=allure_result** "
 3. Install allure commandline for generate the link of allure report "**npm install -g allure-commandline**"
